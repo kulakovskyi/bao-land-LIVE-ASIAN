@@ -1,0 +1,1 @@
+"use strict";!function(){var e;1280<=window.innerWidth&&(e=document.getElementById("scene"),new Parallax(e))}();
