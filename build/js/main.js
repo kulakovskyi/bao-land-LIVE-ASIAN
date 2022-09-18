@@ -1,1 +1,1 @@
-"use strict";!function(){var e;1280<=window.innerWidth&&(e=document.getElementById("scene"),new Parallax(e))}();
+"use strict";!function(){var n;1280<=window.innerWidth&&(n=document.getElementById("scene"),new Parallax(n))}(),window.addEventListener("orientationchange",function(){window.location.reload()});
