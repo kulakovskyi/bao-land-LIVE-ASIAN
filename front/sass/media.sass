@@ -21,7 +21,6 @@
         &-item
           transform: scale(1.2)
 
-
 @media screen and (max-width: 1920px) and (max-height: 960px)
   .bao
     &__link
@@ -53,7 +52,6 @@
       transform: scale(0.9)
       bottom: -207px
 
-
 @media screen and (max-width: 1600px) and (max-height: 900px)
   .bao
     .parallax
@@ -70,11 +68,9 @@
         top: 263px
       .item-3
         top: 361px
-
       &__layer
         &-item
           transform: scale(0.9)
-
 
 @media screen and (max-width: 1600px) and (max-height: 840px)
   .bao
@@ -118,8 +114,6 @@
       .item-8,
       .item-9
         transform: scale(0.8) translateY(100px)
-
-
 
 @media screen and (max-width: 1540px) and (max-height: 870px)
   .bao
@@ -259,7 +253,6 @@
       bottom: -162px
       right: -63px
 
-
 @media screen and (max-width: 1366px) and (max-height: 778px)
   .bao
     &__info
@@ -268,9 +261,6 @@
       bottom: 215px
     &__rulet
       transform: scale(0.7)
-
-
-
 
 @media screen and (max-width: 1366px) and (max-height: 690px)
   .bao
@@ -301,7 +291,10 @@
       transform: scale(0.65)
       right: -39px
 
-
+@media screen and (max-width: 1300px) and (min-height: 1000px) and (orientation: landscape)
+  .bao
+    .parallax
+      left: -7px
 
 @media screen and (max-width: 1280px) and (max-height: 800px)
   .bao
@@ -344,43 +337,24 @@
     &__rulet
       bottom: -172px
 
+@media screen and (max-width: 1300px) and (orientation: landscape)
+  .bao
+    .parallax
+        .item-2
+          top: 336px
+          right: 8px
+        .item-9
+          left: -20px
+        .item-10
+          top: 302px
+          left: -62px
+        .item-12
+          top: 1px
+        .item-1
+          top: -21px
+          right: -58px
 
-
-//@media screen and (max-width: 1180px)
-//  .bao
-//    .parallax
-//      left: -554px
-//    &__pic
-//      transform-origin: bottom right
-//      transform: scale(0.55)
-//    &__womans-wrapper
-//      transform-origin: bottom right
-//      transform: scale(1.8)
-//
-//@media screen and (max-width: 1145px)
-//  .bao
-//    .parallax
-//      left: -554px
-//    &__pic
-//      transform-origin: bottom right
-//      transform: scale(0.5)
-//    &__womans-wrapper
-//      transform-origin: bottom right
-//      transform: scale(1.85)
-//
-//@media screen and (max-width: 1045px)
-//  .bao
-//    &__pic
-//      transform-origin: bottom right
-//      transform: scale(0.5)
-//    &__womans-wrapper
-//      transform-origin: bottom right
-//      transform: scale(1.85)
-
-
-
-
-@media screen and (max-width: 1024px) and (orientation: landscape)
+@media screen and (max-width: 1190px) and (orientation: landscape)
   .bao
     &__wrapper
       padding: 0 14px 0 0
@@ -409,28 +383,36 @@
       transform: scale(0.75)
       left: 26px
 
+@media screen and (max-width: 1090px) and (orientation: landscape)
+  .bao
+    &__rulet
+      right: -137px
+    .parallax
+      &__layer
+        .item-2
+          right: 89px
+        .item-10
+          left: -35px
+        .item-9
+          left: -4px
+          bottom: 343px
 
-//@media screen and (max-width: 1024px) and (max-height: 770px)
-//  .bao
-//    .parallax
-//      left: -547px
-//    &__rulet
-//      right: 331px
+@media screen and (max-width: 1015px) and (orientation: landscape)
+  .bao
+    &__rulet
+      right: -200px
 
-//@media screen and (max-width: 1015px)
-//  .bao
-//    .parallax
-//      left: -556px
-//    &__rulet
-//      right: 310px
+@media screen and (max-width: 970px) and (orientation: landscape)
+  .bao
+    &__rulet
+      right: -128px
+
 
 @media screen and (max-width: 920px) and (orientation: landscape)
   .bao
     &__info
       transform: scale(0.7)
-      transform-origin: right center
-    &__pic
-      margin: 0 -112px 0 0
+      transform-origin: left center
 
 
 /*************************************TABLET******************************************/
@@ -442,7 +424,7 @@
       position: absolute
       bottom: 0
       width: 100%
-      height: 172px
+      height: 212px
       background: linear-gradient(180deg, #170C2F 24.48%, rgba(68, 25, 110, 0.44) 56.77%, rgba(64, 19, 82, 0.16) 80.73%, rgba(91, 29, 147, 0) 100%)
       transform: rotate(180deg)
       z-index: 20
@@ -574,71 +556,219 @@
           left: 281px
 
 
-
-
-
-//@media screen and (max-width: 920px) and (orientation: portrait)
-//  .bao
-//    &__rulet
-//      right: 56px
-
-@media screen and (max-width: 840px) and (orientation: portrait) and (max-height: 1125px)
+@media screen and (max-width: 1024px) and (orientation: portrait) and (min-height: 1280px )
   .bao
-    .parallax
-      left: -189px
-    &__pic
-      transform-origin: bottom right
-      transform: scale(0.7)
-    &__womans-wrapper
-      transform-origin: bottom right
-      transform: scale(1.05)
+    &__womans
+      &-2
+        right: -153px
     &__rulet
-      right: 65px
-      bottom: -166px
+      transform: scale(1)
+      bottom: -149px
+      right: -61px
 
-@media screen and (max-width: 840px) and (orientation: portrait) and (max-height: 1055px)
-  .bao
-    .parallax
-      left: -240px
-    &__pic
-      transform-origin: bottom right
-      transform: scale(0.66)
-    &__womans-wrapper
-      transform-origin: bottom right
-      transform: scale(1.08)
 
-@media screen and (max-width: 825px) and (orientation: portrait) and (max-height: 1190px)
+
+
+
+@media screen and (max-width: 840px) and (orientation: portrait) and (max-height: 1180px)
   .bao
     &__rulet
-      right: -10px
+      transform: scale(0.75)
+      bottom: -214px
+      right: -149px
+    &__womans-wrapper
+      transform: translateX(-50%) scale(0.9)
+    &__womans
+      &-3
+        right: -4px
+    .parallax
+      &__layer
+        .item-4,
+        .item-5,
+        .item-6,
+        .item-7,
+        .item-8,
+        .item-9
+          transform: scale(0.75) translateY(50px)
+        .item-1,
+        .item-2,
+        .item-3,
+        .item-12,
+        .item-11,
+        .item-10
+          transform: scale(0.75) translateY(-50px)
+        .item-1
+          top: 330px
+          right: 16px
+        .item-2
+          top: 561px
+          right: 107px
+        .item-3
+          top: 706px
+        .item-4
+          bottom: 134px
+          right: 298px
+          transform: scale(0.6) !important
+        .item-5
+          bottom: 267px
+          right: 106px
+        .item-6
+          bottom: 85px
+          right: 109px
+        .item-7
+          bottom: 299px
+          left: 102px
+        .item-8
+          bottom: 163px
+          left: 127px
+        .item-9
+          bottom: 439px
+          left: 35px
+        .item-10
+          top: 516px
+          left: 128px
+        .item-11
+          top: 373px
+          left: 87px
+        .item-12
+          top: 335px
+          left: 281px
+
+@media screen and (max-width: 840px) and (orientation: portrait) and (max-height: 1050px)
+  .bao
+    &__title
+      margin: 138px 0 15px 0
+    .parallax
+      &__layer
+        .item-4,
+        .item-5,
+        .item-6,
+        .item-7,
+        .item-8,
+        .item-9
+          transform: scale(0.75) translateY(120px)
+        .item-1,
+        .item-2,
+        .item-3,
+        .item-12,
+        .item-11,
+        .item-10
+          transform: scale(0.75) translateY(-90px)
+    &__womans-wrapper
+      width: 100%
+    &__womans
+      picture
+        top: 30px
+      &-1,
+      &-4
+        right: 207px
+      &-3
+        right: 131px
+        width: 53vh
+        transform: scale(0.8)
+        picture
+          top: 3px
+      &-2
+        right: -38px
+
+@media screen and (max-width: 830px) and (orientation: portrait) and (max-height: 1010px)
+  .bao
+
+    .parallax
+      &__layer
+        .item-1,
+        .item-2,
+        .item-3,
+        .item-12,
+        .item-11,
+        .item-10
+          transform: scale(0.75) translateY(-140px)
+        .item-4,
+        .item-5,
+        .item-6,
+        .item-7,
+        .item-8,
+        .item-9
+          transform: scale(0.75) translateY(170px)
+
+
+
 
 @media screen and (max-width: 770px) and (orientation: portrait)
   .bao
-    .parallax
-      left: -289px
-      &__layer
-        .item-4
-          bottom: 308px
-          left: 96px
     &__rulet
-      transform: scale(1)
-      bottom: -156px
-      right: 65px
-    &__pic
-      transform-origin: bottom right
-      transform: scale(0.6)
-    &__womans-wrapper
-      transform-origin: bottom right
-      transform: scale(1.1)
+      transform: scale(0.65)
+      bottom: -107px
+      right: 18px
+    &__womans
+      picture
+        top: 50px
+      &-1,
+      &-4
+        right: 207px
+      &-3
+        right: 87px
+        width: 53vh
+        transform: scale(0.8)
+        picture
+          top: 23px
 
-@media screen and (max-width: 770px) and (orientation: portrait) and (max-height: 920px)
+@media screen and (max-width: 770px) and (orientation: portrait) and (max-height: 1140px)
   .bao
-    &__pic
-      transform-origin: bottom right
-      transform: scale(0.59)
-    &__womans-wrapper
-      transform-origin: bottom right
-      transform: scale(1.18)
+    &__rulet
+      transform-origin: bottom center
+      left: 42%
+      transform: translateX(-50%) scale(0.65)
+
+
+@media screen and (max-width: 770px) and (orientation: portrait) and (max-height: 1040px)
+  .bao
+    &__womans
+      &-1,
+      &-4
+        right: 178px
+
+@media screen and (max-width: 770px) and (orientation: portrait) and (max-height: 970px)
+  .bao
+    &__rulet
+      bottom: -135px
+    &__title
+      margin: 107px 0 15px 0
+    .parallax
+      &__layer
+        .item-1,
+        .item-2,
+        .item-3,
+        .item-12,
+        .item-11,
+        .item-10
+          transform: scale(0.75) translateY(-180px)
+    &__womans
+      &-3
+        right: 121px
+      &-2
+        right: 12px
+
+@media screen and (max-width: 770px) and (orientation: portrait) and (max-height: 916px)
+  .bao
+    &__womans
+      &-1,
+      &-4
+        right: 204px
+
+
+
+@media screen and (max-width: 730px) and (orientation: portrait)
+  .bao
+    &__womans
+      &-1,
+      &-4
+        right: 162px
+      &-2
+        right: -28px
+
+
+
 
 
 /*************************************MOBILE******************************************/
@@ -652,8 +782,9 @@
       height: 100%
       position: absolute
       top: 0
+      left: 50%
       margin-top: 0
-      transform: scale(1)
+      transform: scale(1) translateX(-50%)
       padding: 90px 0 0 0
     &__title
       font-size: 32px
@@ -665,148 +796,85 @@
     &__footer
       bottom: 30px
       transform-origin: center bottom
-      transform: scale(0.73)
-      left: auto
+      transform: translateX(-50%) scale(0.73)
+      left: 50%
     &__link
       bottom: 85px
       font-size: 22px
       line-height: 27px
       padding: 18px 60px 16px
-    &__pic
-      transform-origin: bottom right
-      transform: scale(0.5)
-    &__womans-wrapper
-      transform-origin: bottom right
-      transform: scale(1.6)
-      margin-right: -50px
-    &__womans
-      top: 100px
-      &-2
-        margin-right: 34px
-      &-3
-        margin-right: 34px
-      &-3
-        top: 130px
     &__rulet
-      bottom: -3px
-      right: -128px
+      left: -150px
+      transform: translateX(0)
+      bottom: -52px
+    &__womans
+      &-1,
+      &-4
+        right: 60px
+      &-2
+        right: -113px
+      &-3
+        right: 30px
+        width: 44vh
+    &__womans-wrapper
+      transform: translateX(-50%) scale(1.04)
     .parallax
       &__layer
-        .item-1
-          bottom: 375px
-          left: -220px
-          transform: scale(0.8)
-        .item-2
-          bottom: 495px
-          left: -116px
-        .item-3
-          transform: scale(1)
-          bottom: 443px
-          left: 246px
-        .item-4
-          bottom: 412px
-          left: 79px
-        .item-5
-          bottom: -7px
-          left: -307px
-        .item-6, .item-7, .item-10
-          display: none
-        .item-8
-          transform: scale(1)
-          bottom: 424px
-          left: -191px
+        .item-1,
+        .item-2,
+        .item-3,
+        .item-12,
+        .item-11,
+        .item-10
+          transform: scale(0.5) translateY(-140px) !important
+        .item-4,
+        .item-5,
+        .item-6,
+        .item-7,
+        .item-8,
         .item-9
-          transform: scale(1.4)
-          bottom: 655px
-          left: 102px
+          transform: scale(0.5) translateY(170px) !important
+        .item-1
+          top: 207px
+          right: -70px
+        .item-2
+          top: 380px
+          right: 2px
+        .item-3
+          top: 492px
+          right: -62px
+        .item-4
+          bottom: 69px
+          right: 82px
+          transform: scale(0.4) !important
+        .item-5
+          bottom: 177px
+          right: -17px
+          display: none
+        .item-6
+          bottom: 146px
+          right: -39px
+        .item-7
+          bottom: 248px
+          left: 11px
+        .item-8
+          bottom: 301px
+          left: -41px
+          display: none
+        .item-9
+          bottom: 291px
+          left: -60px
+        .item-10
+          top: 404px
+          left: -8px
         .item-11
-          bottom: 272px
-          left: 356px
+          top: 301px
+          left: -34px
         .item-12
-          bottom: 129px
-          left: 371px
-    &__womans
-      width: 44vh
-      &-2
-        width: 50vh
-
-@media screen and (max-width: 600px) and (orientation: portrait) and (max-height: 720px)
-  .bao
-    &__rulet
-      bottom: -49px
-    .parallax
-      bottom: -30px
-
-@media screen and (max-width: 395px)
-  .bao
-    .parallax
-      left: -255px
+          top: 273px
+          left: 73px
 
 
-@media screen and (max-width: 380px) and (orientation: portrait) and (max-height: 750px)
-  .bao
-    &__footer
-      transform-origin: center
-      transform: scale(0.65)
-      bottom: 17px
-    &__link
-      bottom: 74px
-    &__rulet
-      transform-origin: bottom center
-      transform: scale(0.85)
-    .parallax
-      transform-origin: bottom center
-      transform: scale(0.85)
-      left: -256px
-    &__womans-wrapper
-      margin-right: -19px
-
-
-
-@media screen and (max-width: 380px) and (orientation: portrait) and (max-height: 650px)
-  .bao
-    &__rulet
-     transform-origin: bottom center
-     transform: scale(0.7)
-    .parallax
-      transform-origin: bottom center
-      transform: scale(0.7)
-    &__link
-      transform-origin: bottom center
-      transform: translateX(-50%) scale(0.8)
-      bottom: 53px
-    &__footer
-      transform-origin: bottom center
-      transform: scale(0.6)
-      bottom: 17px
-    &__womans-wrapper
-      transform: scale(1.5)
-      margin-right: 59px
-
-@media screen and (max-width: 330px) and (orientation: portrait)
-  .bao
-    &__rulet
-      transform-origin: bottom center
-      transform: scale(0.69)
-    .parallax
-      transform-origin: bottom center
-      transform: scale(0.69)
-    &__link
-      transform-origin: bottom center
-      transform: translateX(-50%) scale(0.77)
-      bottom: 53px
-    &__footer
-      transform-origin: bottom center
-      transform: scale(0.57)
-      bottom: 17px
-    &__womans-wrapper
-      transform: scale(1.5)
-      margin-right: 59px
-    &__title
-      font-size: 28px
-      line-height: 35px
-    &__text
-      font-size: 14px
 
 /*************************************LANDSCAPE******************************************/
 
