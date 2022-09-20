@@ -341,7 +341,7 @@
   .bao
     .parallax
         .item-2
-          top: 336px
+          //top: 336px
           right: 8px
         .item-9
           left: -20px
@@ -494,12 +494,12 @@
         right: 248px
       &-1
         animation: animWom1-2 1.5s cubic-bezier( 0.9, 0.29, 0.76, 0.93 )
-        animation-delay: 2s
+        animation-delay: 4s
         animation-fill-mode: forwards
       &-2
         transform-origin: top center
-        animation: animWom2-2 6s cubic-bezier( 0.9, 0.29, 0.76, 0.93 ) infinite //23
-        animation-delay: 2s
+        animation: animWom2-2 12s cubic-bezier( 0.9, 0.29, 0.76, 0.93 ) infinite //23
+        animation-delay: 4s
         right: -51px
       &-3
         right: -35px
@@ -691,9 +691,6 @@
         .item-8,
         .item-9
           transform: scale(0.75) translateY(170px)
-
-
-
 
 @media screen and (max-width: 770px) and (orientation: portrait)
   .bao
@@ -1274,6 +1271,28 @@
         .item-8,
         .item-9
           transform: scale(0.4) translateY(50px) !important
+
+@media screen and (max-width: 740px) and (orientation: landscape) and (max-height: 400px)
+  .bao
+    &__rulet
+      transform: scale(0.8)
+      left: -165px
+      bottom: -83px
+    .parallax
+      &__layer
+        .item-4
+          right: 238px
+
+@media screen and (max-width: 570px) and (orientation: landscape) and (max-height: 400px)
+  .bao
+    &__rulet
+      transform: scale(0.7)
+      left: -242px
+      bottom: -71px
+    .parallax
+      &__layer
+        .item-4
+          right: 238px
 
 
 
